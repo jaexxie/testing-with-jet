@@ -1,0 +1,22 @@
+{
+  "name": "testing-with-jet",
+  "version": "1.0.0",
+  "description": "A Jest + npm lab session",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaexxie/testing-with-jet.git"
+  },
+  "author": "Jasmin Abdi Asker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaexxie/testing-with-jet/issues"
+  },
+  "homepage": "https://github.com/jaexxie/testing-with-jet#readme"
+}
