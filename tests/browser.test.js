@@ -34,3 +34,8 @@ describe('Clicking "Pusha till stacken"', () => {
         await alert.accept();
     });
 });
+
+test('Page title should be "Wrong title"', async () => {
+    const title = await driver.getTitle();
+    expect(title).toBe("Wrong title");
+});
